@@ -7,7 +7,7 @@
     <title>Waldo's-3D</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./scss/estilos.css">
 </head>
 <body>
     <!-- <header class="menu">
@@ -21,7 +21,7 @@
             </ul>
         </nav>
     </header> -->
-    <ul class="nav justify-content-end">
+    <!-- <ul class="nav justify-content-end sticky-top navbar-expand-md">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Active</a>
         </li>
@@ -34,34 +34,98 @@
         <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
         </li>
-    </ul>
-
-    <section class="imgText">
-        <img src="/statics/img/landing.jpg" alt="" class="landing_img">
-        <h2 class="subtitulo">Landing</h2>
-        <p class="overImageText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias eos porro ratione. Voluptates possimus, dicta quia vel totam temporibus eos error! Distinctio doloribus nemo voluptates error! Molestiae, distinctio corporis!</p>
-    </section>
-    <section>
-        <div class="socialContainer">
-            <div class="social">
-                <a href="https://www.facebook.com/lucas.reinaldi" target="_blank">
-                    <img src="/statics/img/facebook.webp" alt=" Facebook Logo" class="socialImg">
-                </a>
-            </div>
-            <div class="social">
-                <a href="https://www.instagram.com/lucas_reinaldi74/" target="_blank">
-                    <img src="/statics/img/instagram.jpg" alt=" Instagram Logo" class="socialImg">
-                </a>
-                </div>
-            <div class="social">
-                <a href="https://wa.me/3513515068" target="_blank">
-                    <img src="/statics/img/whatsapp.png" alt="Whatsapp Logo" class="socialImg">
-                </a>
-            </div>
+    </ul> -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Waldo's 3D</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/impresiones.html">Impresiones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/tipos.html">Tipos de impresiones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/location.html">Donde encontrarnos</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
+    </nav>
+    <div  class="imgText bg bg-cover">
+        <section >
+            <!-- <img src="/statics/img/landing.jpg" alt="" class="landing_img"> -->
+            <div class="container">
+                <h2 class="subtitulo">Waldo's 3D</h2>
+                <p class="textoHistoria">
+                    ¡Bienvenido a Waldo's 3D, su proveedor de confianza para impresiones 3D de alta calidad!
+                    <br>
+                    En Waldo's 3D, sabemos que la impresión 3D es una tecnología emocionante y en constante evolución que puede transformar la forma en que diseñamos y fabricamos productos. Es por eso que nos enorgullece ofrecer servicios de impresión 3D de vanguardia para ayudar a nuestros clientes a llevar sus proyectos al siguiente nivel.
+                    <br>
+                    Ya sea que esté buscando crear prototipos de productos, modelos arquitectónicos, piezas de repuesto o cualquier otro tipo de objeto tridimensional, nuestro equipo de expertos está aquí para ayudarlo. Utilizamos tecnología de vanguardia para ofrecer impresiones precisas y de alta calidad a precios asequibles.
 
-    <footer class="derechos">
+                    En Waldo's 3D, nos enorgullece ser una empresa comprometida con la calidad y la satisfacción del cliente. Nos aseguramos de que cada impresión cumpla con los más altos estándares de calidad, y trabajamos con nuestros clientes en cada paso del proceso para garantizar que sus necesidades y expectativas se cumplan.
+                    <br>
+                    No importa si usted es un ingeniero, diseñador, arquitecto, artista o simplemente alguien que busca explorar las posibilidades de la impresión 3D, estamos aquí para ayudarlo a llevar sus ideas a la realidad.
+                    <br>
+                    Así que si está buscando un servicio de impresión 3D de confianza, no busque más allá de Waldo's 3D. Contáctenos hoy mismo para obtener más información sobre nuestros servicios y cómo podemos ayudarlo a hacer realidad su próximo proyecto.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="container card-group socialContainer">
+                <!-- <div class="social">
+                    <a href="https://www.facebook.com/lucas.reinaldi" target="_blank">
+                        <img src="/statics/img/facebook.webp" alt=" Facebook Logo" class="socialImg">
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/lucas_reinaldi74/" target="_blank">
+                        <img src="/statics/img/instagram.jpg" alt=" Instagram Logo" class="socialImg">
+                    </a>
+                    </div>
+                <div class="social">
+                    <a href="https://wa.me/3513515068" target="_blank">
+                        <img src="/statics/img/whatsapp.png" alt="Whatsapp Logo" class="socialImg">
+                    </a>
+                </div> -->
+                <div class="card" style="width: 18rem;">
+                    <a href="https://wa.me/3513515068" target="_blank">
+                        <img src="./statics/img/whatsapp.png" class="card-img-top" alt="whatsapp Logo">
+                        <div class="card-body">
+                        <p class="card-text">WhatsApp: ¡Hablemos! Haz clic aquí para enviarnos un mensaje de WhatsApp y te responderemos lo antes posible.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="https://www.facebook.com/lucas.reinaldi/" target="_blank">
+                        <img src="./statics/img/facebook.webp" class="card-img-top" alt="Facebook Logo">
+                        <div class="card-body">
+                        <p class="card-text">Facebook: Síguenos en Facebook para estar al día de nuestras últimas noticias y proyectos. Haz clic aquí para visitar nuestra página en Facebook.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <a href="https://www.instagram.com/lucas_reinaldi74/" target="_blank">
+                        <img src="./statics/img/instagram.jpg" class="card-img-top" alt="Instagram Logo">
+                        <div class="card-body">
+                        <p class="card-text">Instagram: ¿Quieres ver nuestros proyectos y diseños más recientes? Síguenos en Instagram haciendo clic aquí.</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <footer class="derechos fixed-bottom">
         <p>Waldo's-3D Nombre e imagen reservados</p>
     </footer>
 </body>
