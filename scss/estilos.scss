@@ -1,9 +1,85 @@
 @import "./vars/_variables";
 
-
 ul{
     background-color:black;
     li{
         background-color: color-principal;
     }
+}
+
+.imgText{
+    background-image: url(../statics/img/landing.jpg);
+}
+
+.overImageText{
+    background-color: rgba(0, 0, 0, 0.7) ;
+    color: white;
+    padding: 2%;
+}
+
+.derechos{
+    text-align: center;
+}
+
+.subtitulo{
+    color: white;
+}
+
+.subtituloBlack{
+    color: black;
+    padding-top:5% ;
+}
+
+.historiaContenedor{
+    background-image: url(../statics/img/historia.jpg);
+}
+
+.locationContenedor{
+    background-image: url(../statics/img/location.jpg);
+}
+
+.textoHistoria{
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    color: white;
+    padding: 2%;
+}
+
+.tiposImpresion{
+    background-image: url(../statics/img/comparativa.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fdmImpresion{
+    background-image: url(../statics/img/impresora.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resinaImpresion{
+    background-image: url(../statics/img/impresoraResina.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galery{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeryImg{
+    width: 400px;
+}
+
+.galeryText{
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: rgb(255, 255, 255);
 }

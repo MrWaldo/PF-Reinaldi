@@ -7,66 +7,107 @@
     <title>Waldo's-3D</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../scss/estilos.css">
 </head>
 <body>
-    <header class="menu">
-        <h1 class="titulo"><a href="../index.html">Waldo's-3D</a></h1>
-        <nav class="navar">
-            <ul class="menuList">
-                <li class="menuOption"><a href="impresiones.html">Impresiones</a></li>
-                <li class="menuOption"><a href="historia.html">Historia</a></li>
-                <li class="menuOption"><a href="tipos.html">Tipos de Impresiones</a></li>
-                <li class="menuOption"><a href="location.html">Donde encontrarnos</a></li>
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Waldo's 3D</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./impresiones.html">Impresiones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tipos.html">Tipos de impresiones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./location.html">Donde encontrarnos</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+    </nav>
 
-    <section class="galery">
-        <article class="galeryItem">
-            <img src="../statics/img/impresion1.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 1:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
-        <article class="galeryItem">
-            <img src="../statics/img/impresion2.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 2:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
-        <article class="galeryItem">
-            <img src="../statics/img/impresion3.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 3:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
-        <article class="galeryItem">
-            <img src="../statics/img/impresion4.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 4:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
-        <article class="galeryItem">
-            <img src="../statics/img/impresion5.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 5:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
-        <article class="galeryItem">
-            <img src="../statics/img/resina1.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 6:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
-        <article class="galeryItem">
-            <img src="../statics/img/resina2.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 7:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
-        <article class="galeryItem">
-            <img src="../statics/img/resina3.jpg" alt="Imagen de Impresion 1" class="galeryImg">
-            <h2>Foto ejemplo 8:</h2>
-            <p class="galeryText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi amet consequatur itaque nihil, ipsam molestiae, similique necessitatibus quas laudantium facere distinctio, facilis nulla alias doloribus sed atque sunt id.</p>
-        </article>
+    <p class="container textoHistoria">
+        ¡Bienvenidos! En esta sección de nuestro sitio web, podrás encontrar una amplia variedad de ejemplos de los trabajos que hemos realizado con nuestras impresoras 3D de alta calidad en Waldo's 3D.
+        <br>
+        Nos enorgullece mostrar nuestra amplia experiencia en la creación de piezas de alta calidad utilizando tecnología de impresión 3D. En esta sección encontrarás ejemplos de piezas de todo tipo, desde pequeñas joyas y piezas dentales hasta grandes piezas arquitectónicas y prototipos de productos industriales.
+        <br>
+        Nuestro equipo de expertos en impresión 3D se dedica a crear piezas de alta calidad que superen las expectativas de nuestros clientes. Utilizamos materiales de primera calidad y tecnología de vanguardia para producir piezas con un alto nivel de detalle y acabado profesional.
+        <br>
+        Además de mostrar los ejemplos de nuestros trabajos realizados, en esta sección también podrás encontrar información útil sobre los diferentes materiales que utilizamos en nuestras impresoras 3D y cómo pueden ser utilizados para diferentes proyectos.
+        <br>
+        En Waldo's 3D estamos comprometidos a brindar a nuestros clientes la mejor calidad en impresión 3D. Si estás buscando inspiración para tu próximo proyecto, ¡no dudes en explorar nuestros ejemplos y contáctanos para más información!
+    </p>
 
-    </section>
+    <div class="container">
+        <section class="galery">
+            <article class="galeryItem">
+                <img src="../statics/img/impresion1.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 1:</h2>
+                <p class="galeryText">
+                    Un soporte para teléfono móvil: este soporte se ha diseñado y creado en 3D FDM para sujetar su teléfono móvil mientras trabaja o ve vídeos. Fabricado en un material resistente y duradero, puede personalizarse en diferentes colores y tamaños para adaptarse a sus necesidades.
+                </p>
+            </article>
+            <article class="galeryItem">
+                <img src="../statics/img/impresion2.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 2:</h2>
+                <p class="galeryText">
+                    Un juguete impreso en 3D: un muñeco de acción, un rompecabezas o un juguete educativo, los juguetes impresos en 3D pueden ser personalizados en función de los intereses y la edad del usuario. Además, la tecnología de impresión 3D FDM permite crear juguetes resistentes y duraderos.
+                </p>
+            </article>
+            <article class="galeryItem">
+                <img src="../statics/img/impresion3.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 3:</h2>
+                <p class="galeryText">
+                    Un prototipo de pieza mecánica: los prototipos impresos en 3D son útiles para la industria automotriz y otros sectores que requieren la creación de piezas mecánicas. Con la impresión 3D FDM, es posible crear prototipos rápidamente y a un costo reducido, lo que permite a las empresas ahorrar tiempo y dinero.
+                </p>
+            </article>
+            <article class="galeryItem">
+                <img src="../statics/img/impresion4.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 4:</h2>
+                <p class="galeryText">
+                    Una maqueta arquitectónica: las maquetas arquitectónicas impresas en 3D son una herramienta útil para los arquitectos y los diseñadores. La impresión en 3D FDM permite crear maquetas detalladas y precisas de edificios y estructuras, lo que permite a los arquitectos y diseñadores presentar su trabajo de una manera visualmente impresionante y clara.
+                </p>
+            </article>
+            <article class="galeryItem">
+                <img src="../statics/img/impresion5.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 5:</h2>
+                <p class="galeryText">Una carcasa de teléfono móvil personalizada: la impresión en 3D FDM permite personalizar y crear carcasas de teléfono móvil únicas y personalizadas. Además, los materiales utilizados para la impresión en 3D FDM son duraderos y resistentes, lo que garantiza que la carcasa sea resistente a los golpes y arañazos.</p>
+            </article>
+            <article class="galeryItem">
+                <img src="../statics/img/resina1.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 6:</h2>
+                <p class="galeryText">
+                    Una pieza de arte decorativa: la impresión en 3D FDM también se puede utilizar para crear piezas de arte decorativas. Las posibilidades creativas son infinitas, desde esculturas abstractas hasta formas geométricas intrincadas. Los objetos impresos en 3D FDM se pueden personalizar en diferentes colores y tamaños para adaptarse a cualquier espacio y decoración.
+                </p>
+            </article>
+            <article class="galeryItem">
+                <img src="../statics/img/resina2.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 7:</h2>
+                <p class="galeryText">
+                    Una figura coleccionable: las figuras coleccionables son uno de los objetos más populares impresos en resina. La tecnología de impresión en resina permite una gran precisión y detalles finos, lo que hace que las figuras sean de alta calidad y muy detalladas.
+                </p>
+            </article>
+            <article class="galeryItem">
+                <img src="../statics/img/resina3.jpg" alt="Imagen de Impresion 1" class="galeryImg">
+                <h2>Foto ejemplo 8:</h2>
+                <p class="galeryText">
+                    Joyería personalizada: la impresión en resina es ideal para la creación de joyería personalizada. La resina se puede imprimir en diferentes colores y texturas, lo que permite una gran variedad de opciones para los clientes que buscan piezas de joyería únicas y personalizadas.
+                </p>
+            </article>
 
-    <footer class="derechos">
+        </section>
+    </div>
+
+    <footer class="derechos fixed-bottom">
         <p>Waldo's-3D Nombre e imagen reservados</p>
     </footer>
 </body>
