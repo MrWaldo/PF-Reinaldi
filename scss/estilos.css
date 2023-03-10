@@ -80,4 +80,35 @@ ul li {
   background-color: rgb(0, 0, 0);
   padding: 10px;
   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 767px) {
+  .locationContenedor {
+    background-image: none;
+    background-color: #fff;
+    min-height: 100%;
+  }
+  .historiaContenedor {
+    background-image: none;
+    background-color: #fff;
+    min-height: 100%;
+  }
+  .tiposImpresion {
+    padding-top: 320%;
+    background-image: none;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  .fdmImpresion {
+    padding-top: 260%;
+    background-image: none;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  .resinaImpresion {
+    padding-top: 310%;
+    background-image: none;
+    background-color: #fff;
+    overflow-y: auto;
+  }
 }/*# sourceMappingURL=estilos.css.map */
